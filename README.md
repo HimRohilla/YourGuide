@@ -25,7 +25,7 @@ With all these there are some modules in our system.
 
 ## Modules
 ### 1. User
-User module consists of all the functionalities of the user and communicates with the DB. It contains functions that contains all the DB communication related to the user such as create user, delete user, get details and much more. These functions that are in this class are called from files in _"/rest_calls/User"_. Here i have made some rest API calls for my project that are eventually be called from AngularJs. Some of the functionalities of Users are:
+User module consists of all the functionalities of the user and communicates with the DB. It contains functions that contains all the DB communication related to the user such as create user, delete user, get details and much more. These functions that are in this class are called from files in _"/rest_calls/User"_. Here i have made some rest API calls for my project that are eventually be called from AngularJs. Some of the functionalities of Users are:<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**(i) Login<br>**
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**(ii) Register<br>**
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**(iii) View Places<br>**
@@ -37,7 +37,7 @@ User module consists of all the functionalities of the user and communicates wit
 		Admin enters all the phobia that are allowed by the user to add in their profile.
 
 ### 2. Admin
-Admin module consists of all the functionalities of the admin and communicates with the DB. It contains functions that contains all the DB communication related to the admin such as view feedbacks, view users, add phobia, and much more. These functions that are in this class are called from files in _"/rest_calls/Admin"_. Here i have made some rest API calls for my project that are eventually be called from AngularJs. Some of the funcitonalities of Admin are:
+Admin module consists of all the functionalities of the admin and communicates with the DB. It contains functions that contains all the DB communication related to the admin such as view feedbacks, view users, add phobia, and much more. These functions that are in this class are called from files in _"/rest_calls/Admin"_. Here i have made some rest API calls for my project that are eventually be called from AngularJs. Some of the funcitonalities of Admin are:<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**(i) Login**<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**(ii) Add/Delete Phobia**<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**(iii) View/Delete Feedbacks**<br>
