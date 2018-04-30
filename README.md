@@ -26,24 +26,24 @@ With all these there are some modules in our system.
 ## Modules
 ### 1. User
 		User module consists of all the functionalities of the user and communicates with the DB. It contains functions that contains all the DB communication related to the user such as create user, delete user, get details and much more. These functions that are in this class are called from files in _"/rest_calls/User"_. Here i have made some rest API calls for my project that are eventually be called from AngularJs. Some of the functionalities of Users are:
-&nsbp;&nsbp;&nsbp;&nsbp;&nsbp;&nsbp;(i) Login
-&nsbp;&nsbp;&nsbp;&nsbp;&nsbp;&nsbp;(ii) Register
-&nsbp;&nsbp;&nsbp;&nsbp;&nsbp;&nsbp;(iii) View Places
-&nsbp;&nsbp;&nsbp;&nsbp;&nsbp;&nsbp;(iv) Get Venue Details
-&nsbp;&nsbp;&nsbp;&nsbp;&nsbp;&nsbp;(v) Add/Delete Phobia
-&nsbp;&nsbp;&nsbp;&nsbp;&nsbp;&nsbp;(vi) Edit Details
-&nsbp;&nsbp;&nsbp;&nsbp;&nsbp;&nsbp;(vii) Plan Tour
-&nsbp;&nsbp;&nsbp;&nsbp;&nsbp;&nsbp;(viii) Give feedback
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**(i) Login<br>**
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**(ii) Register<br>**
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**(iii) View Places<br>**
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**(iv) Get Venue Details<br>**
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**(v) Add/Delete Phobia<br>**
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**(vi) Edit Details<br>**
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**(vii) Plan Tour<br>**
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**(viii) Give feedback<br>**
 		Admin enters all the phobia that are allowed by the user to add in their profile.
 
 ### 2. Admin
 		Admin module consists of all the functionalities of the admin and communicates with the DB. It contains functions that contains all the DB communication related to the admin such as view feedbacks, view users, add phobia, and much more. These functions that are in this class are called from files in _"/rest_calls/Admin"_. Here i have made some rest API calls for my project that are eventually be called from AngularJs. Some of the funcitonalities of Admin are:
-&nsbp;&nsbp;&nsbp;&nsbp;&nsbp;&nsbp;(i) Login
-&nsbp;&nsbp;&nsbp;&nsbp;&nsbp;&nsbp;(ii) Add/Delete Phobia
-&nsbp;&nsbp;&nsbp;&nsbp;&nsbp;&nsbp;(iii) View/Delete Feedbacks
-&nsbp;&nsbp;&nsbp;&nsbp;&nsbp;&nsbp;(iv) Add/Delete Restrictions
-&nsbp;&nsbp;&nsbp;&nsbp;&nsbp;&nsbp;(v) View/Delete Users
-&nsbp;&nsbp;&nsbp;&nsbp;&nsbp;&nsbp;(vi) Edit Details
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**(i) Login**<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**(ii) Add/Delete Phobia**<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**(iii) View/Delete Feedbacks**<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**(iv) Add/Delete Restrictions**<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**(v) View/Delete Users**<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**(vi) Edit Details**<br>
 		Admin needs to map phobia with some tags accordingly. Also, admin can add some restrictions to any number of places so that no user can see that place.
 
 ### 3. DB
