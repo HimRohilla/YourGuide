@@ -25,7 +25,7 @@ With all these there are some modules in our system.
 
 ## Modules
 ### 1. User
-		User module consists of all the functionalities of the user and communicates with the DB. It contains functions that contains all the DB communication related to the user such as create user, delete user, get details and much more. These functions that are in this class are called from files in _"/rest_calls/User"_. Here i have made some rest API calls for my project that are eventually be called from AngularJs. Some of the functionalities of Users are:
+User module consists of all the functionalities of the user and communicates with the DB. It contains functions that contains all the DB communication related to the user such as create user, delete user, get details and much more. These functions that are in this class are called from files in _"/rest_calls/User"_. Here i have made some rest API calls for my project that are eventually be called from AngularJs. Some of the functionalities of Users are:
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**(i) Login<br>**
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**(ii) Register<br>**
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**(iii) View Places<br>**
@@ -37,7 +37,7 @@ With all these there are some modules in our system.
 		Admin enters all the phobia that are allowed by the user to add in their profile.
 
 ### 2. Admin
-		Admin module consists of all the functionalities of the admin and communicates with the DB. It contains functions that contains all the DB communication related to the admin such as view feedbacks, view users, add phobia, and much more. These functions that are in this class are called from files in _"/rest_calls/Admin"_. Here i have made some rest API calls for my project that are eventually be called from AngularJs. Some of the funcitonalities of Admin are:
+Admin module consists of all the functionalities of the admin and communicates with the DB. It contains functions that contains all the DB communication related to the admin such as view feedbacks, view users, add phobia, and much more. These functions that are in this class are called from files in _"/rest_calls/Admin"_. Here i have made some rest API calls for my project that are eventually be called from AngularJs. Some of the funcitonalities of Admin are:
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**(i) Login**<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**(ii) Add/Delete Phobia**<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**(iii) View/Delete Feedbacks**<br>
@@ -47,10 +47,10 @@ With all these there are some modules in our system.
 		Admin needs to map phobia with some tags accordingly. Also, admin can add some restrictions to any number of places so that no user can see that place.
 
 ### 3. DB
-		DB module consists of the functions related to the DB connection and retreival. A factory function is made in the this class to get the DB connection. _PDO_ is used as an abstraction layer for DB.
+DB module consists of the functions related to the DB connection and retreival. A factory function is made in the this class to get the DB connection. _PDO_ is used as an abstraction layer for DB.
 
 ### 4. Utility
-		Utility module consists of the general functions that are used in whole project like encrypt decrypt password, getDetails for various things and more. These functions that are in this class are called from files in _"/rest_calls/Public"_. Here i have made some rest API calls for my project that are eventually be called from AngularJs.
+Utility module consists of the general functions that are used in whole project like encrypt decrypt password, getDetails for various things and more. These functions that are in this class are called from files in _"/rest_calls/Public"_. Here i have made some rest API calls for my project that are eventually be called from AngularJs.
 
 ### 5. Tsp
-		Tsp module consists of all the algorithms related to the planning of tour.
+Tsp module consists of all the algorithms related to the planning of tour.
