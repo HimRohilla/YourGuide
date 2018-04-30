@@ -10,9 +10,9 @@ If you are planning to visit any city or place then this is the one stop solutio
 5. REST
 6. MVC
 7. MySql
-8. Foursquare API()
-9. Distance Matrix API
-10. Maps API
+8. Foursquare API (https://developer.foursquare.com/)
+9. Distance Matrix API (https://developers.google.com/maps/documentation/distance-matrix/)
+10. Maps API (https://developers.google.com/maps/)
 
 ### Pre-requisites
 1. XAMPP/WAMPP Server
